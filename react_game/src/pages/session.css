@@ -1,0 +1,15 @@
+.session-img {
+  height: 180px;
+  object-fit: cover;
+  border-bottom: 2px solid #dee2e6;
+}
+
+.session-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 8px;
+}
+
+.session-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+}
